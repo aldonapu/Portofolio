@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portofolio/static/css/main.0bc20c9a.css",
+    "main.js": "/Portofolio/static/js/main.fb74acff.js",
+    "static/js/453.d815c620.chunk.js": "/Portofolio/static/js/453.d815c620.chunk.js",
+    "static/media/Flipgame2.png": "/Portofolio/static/media/Flipgame2.40c6d051511b97f012c5.png",
+    "static/media/Tampilan2.png": "/Portofolio/static/media/Tampilan2.12f976cfad61dfaac05a.png",
+    "static/media/Flipgame3.png": "/Portofolio/static/media/Flipgame3.8842a4667db54eebd000.png",
+    "static/media/Picture6.jpg": "/Portofolio/static/media/Picture6.1536b5adde38997affe5.jpg",
+    "static/media/Tampilan4.png": "/Portofolio/static/media/Tampilan4.e8699240b04b2622c3f1.png",
+    "static/media/Dashboard.jpg": "/Portofolio/static/media/Dashboard.68349f846dee5a1ee028.jpg",
+    "static/media/Tampilan1.png": "/Portofolio/static/media/Tampilan1.f1ac1b047733ea1c8a8e.png",
+    "static/media/Tampilan Kepala.jpg": "/Portofolio/static/media/Tampilan Kepala.016e4091f594a8b0f3fb.jpg",
+    "static/media/Tampilan Seksi.jpg": "/Portofolio/static/media/Tampilan Seksi.19fdad52a329a5960a17.jpg",
+    "static/media/Tampilan5.png": "/Portofolio/static/media/Tampilan5.9c71d873fd9d97e06f96.png",
+    "static/media/Flowchart.jpg": "/Portofolio/static/media/Flowchart.c9262432bed61d1d454e.jpg",
+    "static/media/Login.jpg": "/Portofolio/static/media/Login.c9bb4619d8859f50ce1b.jpg",
+    "static/media/Tampilan3.png": "/Portofolio/static/media/Tampilan3.a29cc2ea990de5d29033.png",
+    "static/media/logo1.png": "/Portofolio/static/media/logo1.7608eaf749cbbf1c7d9c.png",
+    "static/media/Flipgame1.png": "/Portofolio/static/media/Flipgame1.797216bfdc4bc5f31158.png",
+    "static/media/Picture5.jpg": "/Portofolio/static/media/Picture5.89a1aaa205ff9206efd9.jpg",
+    "static/media/Picture4.jpg": "/Portofolio/static/media/Picture4.aa656ae16ec910c36a48.jpg",
+    "static/media/Picture3.jpg": "/Portofolio/static/media/Picture3.70bbb2f4986a2f67b19b.jpg",
+    "static/media/Picture2.jpg": "/Portofolio/static/media/Picture2.a62873d6c5913a77b80a.jpg",
+    "index.html": "/Portofolio/index.html",
+    "main.0bc20c9a.css.map": "/Portofolio/static/css/main.0bc20c9a.css.map",
+    "main.fb74acff.js.map": "/Portofolio/static/js/main.fb74acff.js.map",
+    "453.d815c620.chunk.js.map": "/Portofolio/static/js/453.d815c620.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bc20c9a.css",
+    "static/js/main.fb74acff.js"
+  ]
+}
