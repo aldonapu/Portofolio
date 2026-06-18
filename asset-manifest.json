@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.0bc20c9a.css",
-    "main.js": "/Portofolio/static/js/main.fb74acff.js",
+    "main.css": "/Portofolio/static/css/main.59d2688d.css",
+    "main.js": "/Portofolio/static/js/main.7d01e2be.js",
     "static/js/453.d815c620.chunk.js": "/Portofolio/static/js/453.d815c620.chunk.js",
     "static/media/Flipgame2.png": "/Portofolio/static/media/Flipgame2.40c6d051511b97f012c5.png",
     "static/media/Tampilan2.png": "/Portofolio/static/media/Tampilan2.12f976cfad61dfaac05a.png",
@@ -23,12 +23,12 @@
     "static/media/Picture3.jpg": "/Portofolio/static/media/Picture3.70bbb2f4986a2f67b19b.jpg",
     "static/media/Picture2.jpg": "/Portofolio/static/media/Picture2.a62873d6c5913a77b80a.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.0bc20c9a.css.map": "/Portofolio/static/css/main.0bc20c9a.css.map",
-    "main.fb74acff.js.map": "/Portofolio/static/js/main.fb74acff.js.map",
+    "main.59d2688d.css.map": "/Portofolio/static/css/main.59d2688d.css.map",
+    "main.7d01e2be.js.map": "/Portofolio/static/js/main.7d01e2be.js.map",
     "453.d815c620.chunk.js.map": "/Portofolio/static/js/453.d815c620.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bc20c9a.css",
-    "static/js/main.fb74acff.js"
+    "static/css/main.59d2688d.css",
+    "static/js/main.7d01e2be.js"
   ]
 }
