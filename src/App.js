@@ -5,6 +5,7 @@ import Portofolio from './pages/Portofolio';
 function App() {
   return (
    <Portofolio />
+  
   );
 }
 

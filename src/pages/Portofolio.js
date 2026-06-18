@@ -88,19 +88,7 @@ const projects = [
         tech: ["React.js", "SASS"],
         featured: true,
     },
-    {
-        id: 5,
-        title: "Portfolio Showcase",
-        images: [
-            Tampilan4,
-            Dashboard,
-            Kepala,
-            Login,
-        ],
-        description: "Showcase desain portofolio responsif dengan interaksi elegan, animasi halus, dan fokus pada presentasi visual.",
-        tech: ["React.js", "SASS", "UI/UX"],
-        featured: true,
-    },
+
 ];
 
 

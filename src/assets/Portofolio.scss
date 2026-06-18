@@ -227,7 +227,80 @@
 }
 
 }
+/* Tablet */
+@media (max-width: 768px) {
+    .Header {
+        padding: 0.8rem 1.5rem;
 
+        .Logo img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .Menu-Header {
+            gap: 1rem;
+
+            a {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .Header {
+        padding: 0.7rem 0.8rem;
+    }
+
+    .Logo img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .Menu-Header {
+        gap: 0.5rem;
+    }
+
+    .Menu-Header a {
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ContainerUtama {
+
+        .Social-media {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+            margin-top: 2rem;
+
+            .social-btn {
+                width: 55px;
+                min-width: 55px;
+                height: 55px;
+                padding: 0 18px;
+                justify-content: flex-start;
+
+                span {
+                    opacity: 0;
+                    transform: translateX(20px);
+                    transition: all .3s ease;
+                }
+
+                &:hover {
+                    width: 180px;
+                    transform: translateX(8px);
+
+                    span {
+                        opacity: 1;
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+    }
+}
 .projects-container {
     background: black;
     padding: 1rem 3rem;
