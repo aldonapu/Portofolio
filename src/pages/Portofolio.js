@@ -1,10 +1,8 @@
 import "../assets/Portofolio.scss"
 import { useState } from "react";
 import Logo from "../images/logo1.png"
-import GlitchText from "../components/GlitchText";
 import BlurText from "../components/BlurText"
 import Antigravity from "../components/Antigravity";
-import ShinyText from "../components/ShinyText";
 import TypingText from "../components/TypingText";
 import { FaInstagram, FaGithub, FaLinkedinIn, FaCode, FaHandshake, FaLightbulb, FaRocket, FaEnvelope } from "react-icons/fa";
 import ProjectCard from "../components/Card";
@@ -21,12 +19,15 @@ import Gambar2 from "../images/skrpsi/Picture2.jpg"
 import Tampilan1 from "../images/ecommerce/Tampilan1.png"
 import Tampilan2 from "../images/ecommerce/Tampilan2.png"
 import Tampilan3 from "../images/ecommerce/Tampilan3.png"
-import Tampilan4 from "../images/ecommerce/Tampilan4.png"
 import Tampilan5 from "../images/ecommerce/Tampilan5.png"
 import Flipgame1 from "../images/Flipgame/Flipgame1.png"
 import Flipgame2 from "../images/Flipgame/Flipgame2.png"
 import Flipgame3 from "../images/Flipgame/Flipgame3.png"
-
+import Admin1 from "../images/Admin/Admin1.png"
+import Admin2 from "../images/Admin/Admin2.png"
+import Admin3 from "../images/Admin/Admin3.png"
+import Admin4 from "../images/Admin/Admin4.png"
+import Admin5 from "../images/Admin/Admin5.png"
 const projects = [
     {
         id: 1,
@@ -88,6 +89,23 @@ const projects = [
         tech: ["React.js", "SASS"],
         featured: true,
     },
+    {
+        id: 5,
+        title: "Dashboard Admin",
+        images: [
+            Admin1,
+            Admin2,
+            Admin3,
+            Admin4,
+            Admin5
+        ],
+        description: "Dashboard Admin merupakan mini project yang dikembangkan menggunakan React JS, SASS, dan Firebase. Dashboard ini memiliki fitur CRUD untuk mengelola data pengguna, produk, dan pesanan.",
+        repository: "https://github.com/aldonapu/Dashboard",
+        demo: "https://aldonapu.github.io/Dashboard/",
+        tech: ["React.js", "SASS", "Firebase"],
+        featured: true,
+    },
+    
 
 ];
 
@@ -103,9 +121,9 @@ const Portofolio = ()=>{
         return diff;
     };
 
-    const prevProject = () => {
-        setActiveProject((current) => (current - 1 + totalProjects) % totalProjects);
-    };
+    // const prevProject = () => {
+    //     setActiveProject((current) => (current - 1 + totalProjects) % totalProjects);
+    // };
 
     const nextProject = () => {
         setActiveProject((current) => (current + 1) % totalProjects);
@@ -250,7 +268,7 @@ const Portofolio = ()=>{
         
         <div className="gallery-frame">
             <div className="gallery-content">
-            <button className="nav-btn prev" onClick={prevProject} aria-label="Previous project">←</button>
+            {/* <button className="nav-btn prev" onClick={prevProject} aria-label="Previous project">←</button> */}
             <div className="gallery-slider">
                 {projects.map((project, index) => {
                     const offset = wrapDistance(index);
