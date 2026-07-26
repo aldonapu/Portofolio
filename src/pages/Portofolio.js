@@ -28,6 +28,11 @@ import Admin2 from "../images/Admin/Admin2.png"
 import Admin3 from "../images/Admin/Admin3.png"
 import Admin4 from "../images/Admin/Admin4.png"
 import Admin5 from "../images/Admin/Admin5.png"
+import eshop1 from "../images/eshop/1.png"
+import eshop2 from "../images/eshop/2.png"
+import eshop3 from "../images/eshop/3.png"
+import eshop4 from "../images/eshop/4.png"
+import eshop5 from "../images/eshop/5.png"
 const projects = [
     {
         id: 1,
@@ -102,7 +107,23 @@ const projects = [
         description: "Dashboard Admin merupakan mini project yang dikembangkan menggunakan React JS, SASS, dan Firebase. Dashboard ini memiliki fitur CRUD untuk mengelola data pengguna, produk, dan pesanan.",
         repository: "https://github.com/aldonapu/Dashboard",
         demo: "https://aldonapu.github.io/Dashboard/",
-        tech: ["React.js", "SASS", "Firebase"],
+        tech: ["React.js", "SASS", "Firebase", "Cloudinary"],
+        featured: true,
+    },
+    {
+        id: 6,
+        title: "Eshop",
+        images: [
+            eshop1,
+            eshop2,
+            eshop3,
+            eshop4,
+            eshop5
+        ],
+        description: "Merupakan project lanjutan dari Dashboard Admin, Marketplace adalah aplikasi e-commerce yang dikembangkan sebagai lanjutan dari Admin Dashboard. Aplikasi ini memungkinkan pengguna untuk menjelajahi produk, melihat detail produk, mencari produk, mengelola keranjang belanja, dan menyimpan produk favorit.",
+        repository: "https://github.com/aldonapu/Eshop",
+        demo: "https://aldonapu.github.io/Eshop/",
+        tech: ["React.js", "SASS", "Firebase", "Framer Motion"],
         featured: true,
     },
     
