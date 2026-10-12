@@ -33,6 +33,9 @@ import eshop2 from "../images/eshop/2.png"
 import eshop3 from "../images/eshop/3.png"
 import eshop4 from "../images/eshop/4.png"
 import eshop5 from "../images/eshop/5.png"
+import scada1 from "../images/scada/scada1.png"
+import scada2 from "../images/scada/scada2.png"
+import scada3 from "../images/scada/scada3.png"
 const projects = [
     {
         id: 1,
@@ -44,7 +47,7 @@ const projects = [
             Login,
             Flowchart
         ],
-        description: "Web ini bernama E-Sharing yang bertujuan untuk Memudahkan Dalam Pengelolaan Laporan di lingkungan kantor, Menggunakan PHP framework CodeIgniter dan MySQL sebagai Databasenya",
+        description: "This website, called E-Sharing, aims to simplify report management within the office environment. It was developed using the CodeIgniter PHP framework and MySQL as the database.",
         tech: ["CodeIgniter", "MySQL", "PHP"],
         featured: true,
         
@@ -59,7 +62,7 @@ const projects = [
             Gambar3,
             Gambar2
         ],
-        description: "Ini merupakan sistem pendeteksi dini kebakaran berbasis Internet Of Things(IoT), dimana terdapat 3 sensor utama yaitu api, asap, dan gas. Menggunakan Blynk sebagai interface dan pengirim notifikasi ",
+        description: "This is a fire detection system based on Internet of Things (IoT), which includes three main sensors: fire, smoke, and gas. It uses Blynk as the interface and notification sender.",
         tech: ["ESP32", "Blynk", "IoT"],
         featured: true,
     },
@@ -73,7 +76,7 @@ const projects = [
             Tampilan5,
             
         ],
-        description: "Membangun aplikasi e-commerce sederhana menggunakan React JS,daftar produk dari API. Fetch API untuk komunikasi data, useState dan useEffect untuk pengelolaan state dan side effect, Context API dan useContext sebagai solusi Global State Management",
+        description: "Developed a simple e-commerce application using React JS, displaying product listings from an API. Used Fetch API for data communication, useState and useEffect for state management and side effects, and Context API with useContext for global state management.",
         repository: "https://github.com/aldonapu/Project-Eccommerce",
         demo: "https://aldonapu.github.io/Project-Eccommerce/",
         tech: ["React.js", "SASS"],
@@ -88,7 +91,7 @@ const projects = [
             Flipgame3,
             
         ],
-        description: "Flip Game merupakan permainan mencocokkan kartu yang dikembangkan menggunakan React JS, useState, dan useEffect. ",
+        description: "Flip Game is a card-matching game developed using React JS, useState, and useEffect. The game challenges players to flip cards and find matching pairs, testing their memory and concentration skills. It features a simple and intuitive interface, making it accessible for players of all ages.",
         repository: "https://github.com/aldonapu/FlipGame",
         demo: "https://aldonapu.github.io/FlipGame/",
         tech: ["React.js", "SASS"],
@@ -104,7 +107,7 @@ const projects = [
             Admin4,
             Admin5
         ],
-        description: "Dashboard Admin merupakan mini project yang dikembangkan menggunakan React JS, SASS, dan Firebase. Dashboard ini memiliki fitur CRUD untuk mengelola data pengguna, produk, dan pesanan.",
+        description: "Admin Dashboard is a React.js-based web application designed to manage data for the Marketplace system. It provides an intuitive interface that enables administrators to efficiently manage products, categories, users, and orders.",
         repository: "https://github.com/aldonapu/Dashboard",
         demo: "https://aldonapu.github.io/Dashboard/",
         tech: ["React.js", "SASS", "Firebase", "Cloudinary"],
@@ -120,10 +123,25 @@ const projects = [
             eshop4,
             eshop5
         ],
-        description: "Merupakan project lanjutan dari Dashboard Admin, Marketplace adalah aplikasi e-commerce yang dikembangkan sebagai lanjutan dari Admin Dashboard. Aplikasi ini memungkinkan pengguna untuk menjelajahi produk, melihat detail produk, mencari produk, mengelola keranjang belanja, dan menyimpan produk favorit.",
+        description: "Marketplace is a React.js-based e-commerce application developed as the customer-facing extension of the Admin Dashboard. It focuses on providing a seamless shopping experience, allowing users to browse, search, and purchase products managed through the admin panel.",
         repository: "https://github.com/aldonapu/Eshop",
         demo: "https://aldonapu.github.io/Eshop/",
         tech: ["React.js", "SASS", "Firebase", "Framer Motion"],
+        featured: true,
+    },
+       {
+        id: 7,
+        title: "Scada",
+        images: [
+            scada1,
+            scada2,
+            scada3,
+
+        ],
+        description: "A web-based SCADA (Supervisory Control and Data Acquisition) system designed to monitor and visualize the status of Cranes, Stations, Conveyors, and PLCs through a modern web interface.project is built with React.js and integrates with APIs to retrieve and display real-time industrial equipment data.",
+        repository: "https://github.com/aldonapu/scada",
+        demo: "https://aldonapu.github.io/scada/",
+        tech: ["React.js", "SASS", "Framer Motion"],
         featured: true,
     },
     
